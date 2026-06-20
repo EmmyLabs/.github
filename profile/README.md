@@ -1,174 +1,175 @@
-UtilityX — Decentralized Utility Marketplace Infrastructure for Africa
-Overview
-UtilityX is a peer-to-peer utility marketplace designed for emerging African markets.
+FusePay
+The Financial Exchange for Digital Utilities
+Buy • Sell • Trade • Pay • Settle
+Wallet | Escrow | Marketplace
 
-The platform enables users to securely buy, sell, and exchange digital utilities such as mobile data, airtime, and bill payment services using escrow-backed transactions powered by the Stellar ecosystem.
+## Problem
+Every day, millions of users and businesses purchase:
+* Mobile Data
+* Airtime
+* Gift Cards
+* Utility Vouchers
+* Digital Subscriptions
 
-Unlike traditional VTU platforms that operate as centralized resellers, UtilityX introduces a marketplace economy where users themselves become participants in utility commerce.
+However:
+* Unused plans expire
+* Users cannot resell unused utilities
+* Buyers face scams
+* Vendors lack a trusted exchange platform
+* Payments and settlements are fragmented
 
-This transforms utilities from static products into tradable digital assets.
+Result:
+Billions of Naira worth of digital value becomes inaccessible or wasted.
 
-The Problem
-Across Africa, millions of users face daily problems accessing affordable digital utilities:
+## Market Opportunity
+Target Markets:
+* Telecommunications
+* Digital Commerce
+* Gift Cards
+* Utility Services
+* Cross-border Payments
 
-Mobile data prices fluctuate significantly
-Airtime and data often go unused and expire
-Centralized VTU platforms control pricing
-Failed transactions and poor support reduce trust
-Informal utility trading happens manually through WhatsApp and social media with high fraud risk
-Small vendors and campus resellers lack proper infrastructure
-Despite the massive demand for utilities, there is no secure, transparent marketplace where users can trade utility value directly.
+Potential Users:
+* Telecom consumers
+* Data resellers
+* Airtime vendors
+* Gift card traders
+* SMEs
+* Digital merchants
 
-This creates inefficiencies, wasted digital value, and limited economic participation.
+Initial Market:
+Nigeria
 
-Our Solution
-UtilityX creates a decentralized utility commerce layer where users can:
+Expansion:
+Africa
 
-Buy airtime and mobile data instantly
-Sell unused mobile data to other users
-Access peer-to-peer utility listings
-Execute transactions using escrow protection
-Build reputation through ratings and transaction history
-Participate in a trusted marketplace instead of a closed reseller system
-The platform combines marketplace dynamics with blockchain-backed trust infrastructure.
+Future:
+Global digital utility exchange.
 
-Why Africa
-Africa is one of the fastest-growing mobile-first economies in the world.
+## Solution
+FusePay is a hybrid fintech and utility exchange platform.
 
-Key market realities:
+Users can:
+* Buy Data
+* Sell Data
+* Buy Airtime
+* Sell Airtime
+* Trade Gift Cards
+* Store Funds
+* Transfer Money
+* Use Escrow Protection
 
-Millions rely on prepaid mobile services daily
-Utility purchases are high-frequency transactions
-Data access directly impacts education, business, and economic participation
-Informal digital utility trading already exists organically
-Young populations rapidly adopt fintech and mobile payments
-Nigeria alone processes millions of airtime and data transactions daily.
+All from one platform.
+## Product Overview
 
-UtilityX formalizes and secures an already existing behavioral market.
+FusePay consists of four layers:
 
-Why This Matters
-UtilityX is not just a fintech app.
+Identity Layer
+* Phone Number
+* User Account
 
-It introduces a new category:
+Wallet Layer
+* Naira Balance
+* Stablecoin Balance
 
-Utility Commerce Infrastructure
+Escrow Layer
+* Secure Transactions
+* Dispute Resolution
 
-This infrastructure allows digital utilities to function as tradable assets inside a trusted marketplace economy.
+Marketplace Layer
+* Data Marketplace
+* Airtime Marketplace
+* Gift Card Marketplace
 
-The long-term vision extends beyond airtime and data into:
 
-Electricity credits
-Internet services
-Community utility exchanges
-Agent-based utility economies
-Cross-border utility liquidity
-Why Stellar
-UtilityX is built with the Stellar ecosystem because Stellar provides the exact infrastructure required for scalable financial utility systems in emerging markets.
+##  How It Works
 
-Stellar enables:
+Seller creates listing
 
-Extremely low transaction fees
-Fast settlement
-Scalable micropayments
-Cross-border interoperability
-Asset tokenization potential
-Transparent escrow mechanisms
-These capabilities are critical for high-frequency utility transactions where speed and low cost are essential.
+↓
 
-How UtilityX Benefits the Stellar Ecosystem
-UtilityX drives real-world blockchain utility rather than speculative activity.
+Buyer places order
 
-The platform can generate:
+↓
 
-1. High Transaction Volume
-Utility purchases are frequent and recurring.
+Funds locked in escrow
 
-Each transaction can contribute to on-chain activity through:
+↓
 
-Escrow settlement
-Wallet operations
-Marketplace interactions
-Utility payment flows
-This creates consistent network usage instead of one-time speculative spikes.
+Seller delivers utility
 
-2. Real User Onboarding
-UtilityX introduces everyday users to blockchain infrastructure through familiar utility transactions.
+↓
 
-Most users may never interact with crypto directly, but they benefit from blockchain-powered trust and settlement behind the scenes.
+Buyer confirms
 
-This supports real adoption beyond crypto-native audiences.
+↓
 
-3. Marketplace Liquidity
-The platform creates a utility liquidity economy where digital utility value can move between users efficiently.
+Funds released automatically
 
-This expands Stellar’s role from payments infrastructure into utility commerce infrastructure.
+Simple
+Secure
+Transparent
 
-4. Financial Inclusion
-Many African users are underserved by traditional banking systems.
 
-UtilityX lowers barriers to digital commerce participation by enabling:
+## Unified Wallet
 
-Microtransactions
-Peer-to-peer value exchange
-Informal vendor participation
-Utility monetization opportunities
+One Wallet
+One Balance
+One Identity
 
-Escrow Model
-UtilityX uses an escrow-based transaction system to reduce fraud and failed transactions.
+Features:
 
-Flow:
+* Send
+* Receive
+* Withdraw
+* Convert
 
-Buyer initiates purchase
 
-Funds are locked temporarily
 
-Utility delivery is executed
+##  Why FusePay Wins
 
-If successful:
+Traditional Fintech:
+✔ Payments
+✘ Utility Exchange
+✘ Escrow Marketplace
 
-Seller receives payment
-If failed:
+Crypto Wallets:
+✔ Assets
 
-Buyer receives refund
-Future versions will integrate Stellar smart contracts for decentralized escrow execution.
+✘ Real Utility Commerce
 
-System Architecture
-The platform consists of three repositories:
+FusePay:
+✔ Wallet
+✔ Marketplace
+✔ Escrow
+✔ Utilities
+✔ Stablecoins
+✔ Local Payments
+
+
+
+
+## Technology
 
 Frontend
-Mobile application interface built with React Native.
+
+* React Native
+* Nextjs (web)
 
 Backend
-Marketplace engine, wallet management, APIs, and transaction processing.
 
-Smart Contracts
-Stellar Soroban contracts for decentralized escrow and transparent settlement.
+* Node.js
+* Express
+* MongoDB
 
-Long-Term Vision
-UtilityX aims to become:
+Infrastructure
 
-The utility commerce layer for emerging markets.
+* Redis
+* Cloud Services
 
-The platform can evolve into infrastructure for:
+Blockchain Layer
 
-Digital utility exchanges
-Community energy trading
-Cross-border utility settlements
-Agent marketplaces
-Utility-backed digital assets
-Why Now
-Africa’s mobile economy is expanding rapidly, but utility commerce infrastructure remains fragmented and centralized.
+* Stellar
 
-UtilityX combines:
-
-Marketplace economics
-Fintech usability
-Blockchain trust infrastructure
-to create a scalable and accessible utility economy for emerging markets.
-
-Conclusion
-UtilityX is not simply another VTU platform.
-
-It is an attempt to build the infrastructure layer for utility commerce in Africa using Stellar-powered trust and settlement systems.
-
-By combining peer-to-peer marketplaces, escrow protection, and blockchain scalability, UtilityX can onboard real users into meaningful blockchain utility while solving everyday economic problems.
+Future Support
+* Multi-chain settlement
